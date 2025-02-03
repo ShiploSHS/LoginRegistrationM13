@@ -55,7 +55,7 @@ function login() {
         return;
     }
 
-    alert('Logged in successfully! Welcome' + parsedUser.fullname);
+    alert('Logged in successfully! Welcome ' + parsedUser.fullname);
 
     document.getElementById('loginEmail').value = '';
     document.getElementById('loginPassword').value = '';
